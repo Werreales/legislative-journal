@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="{{ 'css/index.css' | absolute_url }}">
+	</head>
+
+	<body>
+    {% if page.url != "/" %}<p class="to-home"><a href="{{ site.baseurl }}/">Return to the index.</a></p>{% endif %}
+
+    <header class="Header">
+      <p class="Header_site-name">Legislative Journal Organization</p>
+      <p class="Header_powered">Powered by <strong>Nemesis OpenData</strong></p>
+    </header>
+
+    <main class="{{ page.layout | capitalize }}">
+      <header class="{{ page.layout | capitalize }}_header">
+        <h1 class="{{ page.layout | capitalize }}_title">{{ page.title }}</h1>
+        {% if page.desc %}<p class="{{ page.layout | capitalize }}_desc">{{ page.desc | raw }}</p>{% endif %}
+      </header>
+
+      {{ content }}
+    </main>
+	</body>
+</html>
