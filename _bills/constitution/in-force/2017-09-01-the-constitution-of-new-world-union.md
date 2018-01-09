@@ -1,10 +1,7 @@
 ---
 title: The Constitution of New World Union of 2017
+desc: The New World Union is a Region that accepts all Nations, regardless of ideology. We are dedicated to the proposition that all Nations will have an equal and respected voice, regardless of how large or small, they are. We are also dedicated to the proposition that one Nation does not always have the ideas alone and that we must move forward lockstep together, in a strong bond that will weather any potential crisis we may face. The Region shall be balanced on the pillars of Democracy, Equality, Freedom, and Justice.
 ---
-
-# Preamble
-
-The New World Union is a Region that accepts all Nations, regardless of ideology. We are dedicated to the proposition that all Nations will have an equal and respected voice, regardless of how large or small, they are. We are also dedicated to the proposition that one Nation does not always have the ideas alone and that we must move forward lockstep together, in a strong bond that will weather any potential crisis we may face. The Region shall be balanced on the pillars of Democracy, Equality, Freedom, and Justice.
 
 # Article I - The Founder and Founders Council
 
