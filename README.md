@@ -1,2 +1,2 @@
-# The Legislative Journal
-A database of all the laws of New World Union.
+# The New World Union Legislative Journal
+A collection of the laws of New World Union.
