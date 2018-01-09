@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<aside class="Bill_metadata">
+	{% if page.adopted or page.author or page.sponsor %}
+		<dl>
+			<dt>Date of adoption:</dt>
+			<dd>{{ page.date | date: "%B %d, %Y" }}</dd>
+
+			{% if page.author %}
+				<dt>Author(s):</dt>
+				<dd>{{ page.author }}</dd>
+			{% endif %}
+
+			{% if page.sponsor %}
+				<dt>At the initiative of:</dt>
+				<dd>{{ page.sponsor }}</dd>
+			{% endif %}
+		</dl>
+	{% endif %}
+</aside>
+
+<div class="Bill_content">
+	{{ content }}
+</div>

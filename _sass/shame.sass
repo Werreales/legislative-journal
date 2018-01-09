@@ -1,0 +1,32 @@
+.Bill_metadata
+  dt
+    font-weight: bold
+    position: relative
+
+    &:not(:first-of-type)
+      margin-top: 1rem
+
+    &::before
+      content: '—'
+      position: absolute
+      top: 0
+      left: -2rem
+      font-weight: normal
+
+  dd
+    margin-left: 0
+
+
+.Bill_content ol
+  list-style-type: none
+  counter-reset: alphabetic
+  padding-left: 2rem
+
+  & > li
+    position: relative
+
+  & > li::before
+    counter-increment: alphabetic
+    content: counter(alphabetic, upper-alpha) '.'
+    position: absolute
+    left: -2rem

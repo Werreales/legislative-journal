@@ -1,0 +1,47 @@
+url: https://werreales.github.io
+
+baseurl: /nwu-legislative-journal
+
+timezone: America/New_York
+
+exclude: [ 'README.md' ]
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+collections:
+  bills:
+    output: true
+    permalink: /:path
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: "bills"
+    values:
+      layout: bill
+  -
+    scope:
+      path: "_bills/acts"
+    values:
+      category: act
+  -
+    scope:
+      path: "_bills/constitution"
+    values:
+      category: constitution
+  -
+    scope:
+      path: "_bills/rulesets"
+    values:
+      category: ruleset
