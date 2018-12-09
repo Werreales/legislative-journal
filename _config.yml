@@ -1,11 +1,8 @@
 url: https://werreales.github.io
 
-baseurl: /nwu-legislative-journal
-
-timezone: America/New_York
+baseurl: /nwu-codex
 
 exclude: [ 'README.md' ]
-
 
 sass:
   sass_dir: _sass
